@@ -48,7 +48,7 @@ timeout = 10
 retry = 3
 ```
 # Basic usage
-```toml
+```text
 mailc [subject] [content] [recipient]
 mailc "Hi" "Hello world" user@example.com
 -s string    Email subject
