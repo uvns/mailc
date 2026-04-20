@@ -49,6 +49,7 @@ retry = 3
 # Basic usage
 mailc [subject] [content] [recipient]
 mailc "Hi" "Hello world" user@example.com
+```
 ```toml
 -s string    Email subject
 -b string    Email body (text)
