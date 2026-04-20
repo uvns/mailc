@@ -46,10 +46,11 @@ log_file = "~/.local/share/mailc/mailc.log"
 debug = false
 timeout = 10
 retry = 3
+```
 # Basic usage
 mailc [subject] [content] [recipient]
 mailc "Hi" "Hello world" user@example.com
-```
+
 ```toml
 -s string    Email subject
 -b string    Email body (text)
